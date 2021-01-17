@@ -1,0 +1,81 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.wanwan {
+    background-image: url(pink.jpg);
+    padding-top: 5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+}
+
+.wanwan .gord {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clint #player1,
+.clint #player2 {
+    margin-top: 4%;
+}
+
+.photo1,
+.photo2 {
+    height: 220px;
+    width: 220px;
+}
+
+#love2 {
+    color: blue;
+    font-style: italic;
+}
+
+#love1 {
+    margin-right: 30%;
+    color: blue;
+    font-style: italic;
+}
+
+#rollbtn {
+    padding: 12px 100px;
+}
+
+.clint h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#start {
+    font-size: 80px;
+    margin-top: 15%;
+    color: black;
+    text-shadow: 0 0 20px blue;
+    font-style: oblique;
+}
+
+#thegame {
+    font-size: 80px;
+    margin-top: 4%;
+    color: black;
+    text-shadow: 0 0 20px blue;
+    font-style: oblique;
+}
+
+#Click {
+    padding: 10px 80px;
+}
